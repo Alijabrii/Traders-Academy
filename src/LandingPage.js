@@ -4,10 +4,10 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   const links = {
-    facebook: "https://facebook.com/yourpage",
-    instagram: "https://instagram.com/yourprofile",
-    youtube: "https://youtube.com/yourchannel",
-    whatsapp: "https://wa.me/911234567890", // Example format
+    facebook: "https://www.facebook.com/people/Traders-Shah/pfbid031pctmt6wCqRMi3bCX4KEQioZwPzyZwwgqDdKxvgT2KJsxpPKZj8cDXMobe5jFiuSl/?rdid=6ODfIhwkbYlXgbVr&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DHQpHvMnH%2F",
+    instagram: "https://www.instagram.com/traders_academy27/",
+    youtube: "https://www.youtube.com/@traders_academy27",
+    whatsapp: "https://wa.me/917777777", // Example format
   };
 
   return (
