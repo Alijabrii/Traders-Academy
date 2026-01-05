@@ -83,6 +83,10 @@
   text-decoration: none;
 }
 
+.hero-image{
+  width: fit-content;
+  height: fit-content;
+}
 .courses, .contact {
   padding: 60px 20px;
   text-align: center;
