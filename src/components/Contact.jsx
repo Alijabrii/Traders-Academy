@@ -12,7 +12,7 @@ function Contact() {
 
         <div className="contact-actions">
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/917207358319"
             target="_blank"
             rel="noreferrer"
             className="primary-btn"
