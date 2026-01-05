@@ -1,8 +1,11 @@
 .features {
   padding: 80px 20px;
   text-align: center;
+   background: #0b1c2d;
 }
-
+.features h2{
+    color: white ;
+}
 .feature-card {
   max-width: 500px;
   margin: 30px auto 0;

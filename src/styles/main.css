@@ -87,8 +87,11 @@
 .courses, .contact {
   padding: 60px 20px;
   text-align: center;
+  background: #0b1c2d;
 }
-
+.courses{
+  color: white ;
+}
 .course-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -177,7 +180,7 @@
   }
 
   .hero-image img {
-    max-width: 350px;
+    max-width: 280px;
     margin: 20px auto 0;
   }
 }
