@@ -84,8 +84,8 @@
 }
 
 .hero-image{
-  width: fit-content;
-  height: fit-content;
+  width: 150px;
+  height: 150px;
 }
 .courses, .contact {
   padding: 60px 20px;
