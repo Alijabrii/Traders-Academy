@@ -4,10 +4,9 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="contact-container">
-        <h2>Join Traders Academy</h2>
+        <h2>Ready to Start Trading?</h2>
         <p>
-          Start your trading journey with expert mentorship and live market
-          training.
+          Join thousands of successful traders who have transformed their financial future with our expert guidance.
         </p>
 
         <div className="contact-actions">
@@ -17,14 +16,14 @@ function Contact() {
             rel="noreferrer"
             className="primary-btn"
           >
-            WhatsApp Us
+            Get Started on WhatsApp
           </a>
 
           <a
             href="mailto:info@tradersacademy.com"
             className="secondary-btn"
           >
-            Email Us
+            Contact via Email
           </a>
         </div>
       </div>
