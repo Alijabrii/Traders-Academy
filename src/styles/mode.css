@@ -1,0 +1,124 @@
+/* =========================
+   MODE OF LEARNING SECTION
+   ========================= */
+
+.mode {
+  padding: 80px 20px;
+  background: #000000;
+  text-align: center;
+}
+
+.mode h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #FFD700;
+}
+
+.mode-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+}
+
+.mode-item {
+  background: #111111;
+  border: 1px solid #FFD700;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: left;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.mode-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #FFD700, #FFA500);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mode-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(255, 215, 0, 0.15);
+  border-color: #FFD700;
+}
+
+.mode-item:hover::before {
+  opacity: 1;
+}
+
+.mode-number {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex-shrink: 0;
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+}
+
+.mode-content {
+  flex: 1;
+}
+
+.mode-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #FFD700;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.mode-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .mode {
+    padding: 60px 20px;
+  }
+
+  .mode h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .mode-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .mode-item {
+    padding: 30px 20px;
+  }
+
+  .mode-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .mode-item p {
+    font-size: 0.95rem;
+  }
+}
