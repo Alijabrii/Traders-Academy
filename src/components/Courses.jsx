@@ -123,6 +123,7 @@ function Courses() {
                 <li>TradingView & MT5 Guidance</li>
                 <li>One-on-One Support</li>
               </ul>
+              <p><strong>Total Duration:</strong> 25 Days</p>
             </div>
           )}
         </div>
