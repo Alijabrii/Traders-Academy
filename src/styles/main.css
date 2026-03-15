@@ -10,7 +10,6 @@ body {
   color: #ffffff;
   background: #000000;
   min-height: 100vh;
-  padding-top: 80px; /* Account for fixed header */
 }
 
 /* SECTION SEPARATORS */
@@ -60,18 +59,12 @@ body {
   backdrop-filter: blur(10px);
   color: #ffffff;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
   transition: all 0.3s ease;
 }
 
 .logo-image {
   height: 80px;
   width: auto;
-  filter: brightness(0) invert(1); /* Make it white if it's dark */
 }
 
 /* NAV */
@@ -79,6 +72,21 @@ body {
   display: flex;
   gap: 32px;
   align-items: center;
+}
+
+/* Desktop sticky header */
+@media (min-width: 769px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  body {
+    padding-top: 80px; /* Account for fixed header on desktop */
+  }
 }
 
 .header a {
@@ -89,8 +97,20 @@ body {
   transition: color 0.3s ease;
 }
 
+.header .btn {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
 .header a:hover {
-  color: #FFD700;
+  color:  #FFD700;
+}
+
+.header .btn:hover {
+  color: #030303;
 }
 
 /* CTA button */
@@ -374,7 +394,7 @@ body {
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
 
   .hero p {

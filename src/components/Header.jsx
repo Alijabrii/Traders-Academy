@@ -6,7 +6,6 @@ function Header() {
     <header className="header">
       <img src={heroImage} alt="The Traders Academy" className="logo-image" />
       <nav>
-        <a href="#features">Why Us</a>
         <a href="#courses">Courses</a>
         <a href="#contact" className="btn">Join Now</a>
       </nav>
